@@ -1,6 +1,6 @@
 # Uppgift 1
 
-Skriv klart följande program:
+Skriv klart följande program(main-funktionen är klar):
 
 ```c++
 #include <iostream>
@@ -28,11 +28,10 @@ int main(){
 
 # Uppgift 2
 
-Skriv klart följande program:
+Skriv klart följande program(main-funktionen är klar):
 
 ```c++
 #include <iostream>
-
 
 bool createPerson(Person &person);
 
@@ -48,10 +47,8 @@ int main() {
         std::cout << "Create another person? (Y/N)";
         std::cin >> answer;
         
-        
     }while(answer == 'Y' || answer == 'y');
 
     return 0;
 }
-
 ```
